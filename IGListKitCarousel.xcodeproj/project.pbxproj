@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D5A980595969CB262D1C2FF /* Pods_IGListKitCarousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0ED06E09BDD34FBB5510F3 /* Pods_IGListKitCarousel.framework */; };
+		450D30C128B06BF800BDA901 /* ListObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D30C028B06BF800BDA901 /* ListObject.swift */; };
+		450D30C728B06D6300BDA901 /* MainSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D30C628B06D6300BDA901 /* MainSectionController.swift */; };
+		450D30CF28B06E7100BDA901 /* CarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D30CD28B06E7100BDA901 /* CarouselCell.swift */; };
+		450D30D028B06E7100BDA901 /* CarouselCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 450D30CE28B06E7100BDA901 /* CarouselCell.xib */; };
+		450D30D728B0752100BDA901 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D30D528B0752100BDA901 /* MainCell.swift */; };
+		450D30D828B0752100BDA901 /* MainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 450D30D628B0752100BDA901 /* MainCell.xib */; };
+		450D30DA28B077E400BDA901 /* CarouselSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450D30D928B077E400BDA901 /* CarouselSectionController.swift */; };
 		45593D9928B06A9400F32A62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45593D9828B06A9400F32A62 /* AppDelegate.swift */; };
 		45593D9B28B06A9400F32A62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45593D9A28B06A9400F32A62 /* SceneDelegate.swift */; };
 		45593D9D28B06A9400F32A62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45593D9C28B06A9400F32A62 /* ViewController.swift */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E0ED06E09BDD34FBB5510F3 /* Pods_IGListKitCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		450D30C028B06BF800BDA901 /* ListObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListObject.swift; sourceTree = "<group>"; };
+		450D30C628B06D6300BDA901 /* MainSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSectionController.swift; sourceTree = "<group>"; };
+		450D30CD28B06E7100BDA901 /* CarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCell.swift; sourceTree = "<group>"; };
+		450D30CE28B06E7100BDA901 /* CarouselCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselCell.xib; sourceTree = "<group>"; };
+		450D30D528B0752100BDA901 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		450D30D628B0752100BDA901 /* MainCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCell.xib; sourceTree = "<group>"; };
+		450D30D928B077E400BDA901 /* CarouselSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselSectionController.swift; sourceTree = "<group>"; };
 		45593D9528B06A9400F32A62 /* IGListKitCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGListKitCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45593D9828B06A9400F32A62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45593D9A28B06A9400F32A62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,8 @@
 		45593DA128B06A9600F32A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45593DA428B06A9600F32A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45593DA628B06A9600F32A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F95762D82902B03184D4EF /* Pods-IGListKitCarousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitCarousel.debug.xcconfig"; path = "Target Support Files/Pods-IGListKitCarousel/Pods-IGListKitCarousel.debug.xcconfig"; sourceTree = "<group>"; };
+		E0B2417E8554292888E5EFCE /* Pods-IGListKitCarousel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitCarousel.release.xcconfig"; path = "Target Support Files/Pods-IGListKitCarousel/Pods-IGListKitCarousel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D5A980595969CB262D1C2FF /* Pods_IGListKitCarousel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		450D30C528B06D5500BDA901 /* SectionController */ = {
+			isa = PBXGroup;
+			children = (
+				450D30C628B06D6300BDA901 /* MainSectionController.swift */,
+				450D30D928B077E400BDA901 /* CarouselSectionController.swift */,
+			);
+			path = SectionController;
+			sourceTree = "<group>";
+		};
+		450D30C828B06DB100BDA901 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				450D30CD28B06E7100BDA901 /* CarouselCell.swift */,
+				450D30CE28B06E7100BDA901 /* CarouselCell.xib */,
+				450D30D528B0752100BDA901 /* MainCell.swift */,
+				450D30D628B0752100BDA901 /* MainCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		45593D8C28B06A9400F32A62 = {
 			isa = PBXGroup;
 			children = (
 				45593D9728B06A9400F32A62 /* IGListKitCarousel */,
 				45593D9628B06A9400F32A62 /* Products */,
+				925E10373010C0D5FD359BB0 /* Pods */,
+				C9CE6D8ABC9D1593E269DC0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +97,9 @@
 		45593D9728B06A9400F32A62 /* IGListKitCarousel */ = {
 			isa = PBXGroup;
 			children = (
+				450D30C828B06DB100BDA901 /* View */,
+				450D30C528B06D5500BDA901 /* SectionController */,
+				45593DAC28B06B9A00F32A62 /* Model */,
 				45593D9828B06A9400F32A62 /* AppDelegate.swift */,
 				45593D9A28B06A9400F32A62 /* SceneDelegate.swift */,
 				45593D9C28B06A9400F32A62 /* ViewController.swift */,
@@ -67,6 +111,31 @@
 			path = IGListKitCarousel;
 			sourceTree = "<group>";
 		};
+		45593DAC28B06B9A00F32A62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				450D30C028B06BF800BDA901 /* ListObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		925E10373010C0D5FD359BB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4F95762D82902B03184D4EF /* Pods-IGListKitCarousel.debug.xcconfig */,
+				E0B2417E8554292888E5EFCE /* Pods-IGListKitCarousel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C9CE6D8ABC9D1593E269DC0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E0ED06E09BDD34FBB5510F3 /* Pods_IGListKitCarousel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45593DA928B06A9600F32A62 /* Build configuration list for PBXNativeTarget "IGListKitCarousel" */;
 			buildPhases = (
+				83BDB75D8991BE88EB81CA0B /* [CP] Check Pods Manifest.lock */,
 				45593D9128B06A9400F32A62 /* Sources */,
 				45593D9228B06A9400F32A62 /* Frameworks */,
 				45593D9328B06A9400F32A62 /* Resources */,
+				E8B4C9673FA16D69B506957D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +198,55 @@
 			files = (
 				45593DA528B06A9600F32A62 /* LaunchScreen.storyboard in Resources */,
 				45593DA228B06A9600F32A62 /* Assets.xcassets in Resources */,
+				450D30D028B06E7100BDA901 /* CarouselCell.xib in Resources */,
 				45593DA028B06A9400F32A62 /* Main.storyboard in Resources */,
+				450D30D828B0752100BDA901 /* MainCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83BDB75D8991BE88EB81CA0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IGListKitCarousel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B4C9673FA16D69B506957D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IGListKitCarousel/Pods-IGListKitCarousel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IGListKitCarousel/Pods-IGListKitCarousel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IGListKitCarousel/Pods-IGListKitCarousel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		45593D9128B06A9400F32A62 /* Sources */ = {
@@ -140,7 +255,12 @@
 			files = (
 				45593D9D28B06A9400F32A62 /* ViewController.swift in Sources */,
 				45593D9928B06A9400F32A62 /* AppDelegate.swift in Sources */,
+				450D30CF28B06E7100BDA901 /* CarouselCell.swift in Sources */,
+				450D30C728B06D6300BDA901 /* MainSectionController.swift in Sources */,
+				450D30DA28B077E400BDA901 /* CarouselSectionController.swift in Sources */,
+				450D30C128B06BF800BDA901 /* ListObject.swift in Sources */,
 				45593D9B28B06A9400F32A62 /* SceneDelegate.swift in Sources */,
+				450D30D728B0752100BDA901 /* MainCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +402,7 @@
 		};
 		45593DAA28B06A9600F32A62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F95762D82902B03184D4EF /* Pods-IGListKitCarousel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +430,7 @@
 		};
 		45593DAB28B06A9600F32A62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B2417E8554292888E5EFCE /* Pods-IGListKitCarousel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
