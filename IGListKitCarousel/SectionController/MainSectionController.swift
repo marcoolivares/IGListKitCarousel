@@ -11,7 +11,11 @@ import IGListKit
 final class MainSectionController: ListSectionController {
     
     private var listObject: ListObject?
-    private var mainCellViewController = MainCellViewController()
+    private lazy var adapter: ListAdapter = {
+        let adapter = ListAdapter(updater: ListAdapterUpdater(), viewController: self.viewController)
+        adapter.dataSource = self
+        return adapter
+    }()
     
     override init() {
         super.init()
@@ -21,7 +25,10 @@ final class MainSectionController: ListSectionController {
     
     override func cellForItem(at index: Int) -> UICollectionViewCell {
         let cell = collectionContext!.dequeueReusableCell(withNibName: "MainCell", bundle: nil, for: self, at: index) as! MainCell
-        cell.configure(with: listObject?.name, controller: mainCellViewController)
+        cell.configure(with: listObject?.name)
+        if adapter.collectionView == nil {
+            adapter.collectionView = cell.collectionView
+        }
         return cell
     }
     
@@ -35,6 +42,25 @@ final class MainSectionController: ListSectionController {
     
     override func didUpdate(to object: Any) {
         self.listObject = object as? ListObject
+    }
+}
+
+extension MainSectionController: ListAdapterDataSource {
+    func objects(for listAdapter: ListAdapter) -> [ListDiffable] {
+        let data: [ListObject] = [ListObject(id: "6", name: "Sub-Object 1"),
+                                  ListObject(id: "7", name: "Sub-Object 2"),
+                                  ListObject(id: "8", name: "Sub-Object 3"),
+                                  ListObject(id: "9", name: "Sub-Object 4"),
+                                  ListObject(id: "10", name: "Sub-Object 5")]
+        return data
+    }
+    
+    func listAdapter(_ listAdapter: ListAdapter, sectionControllerFor object: Any) -> ListSectionController {
+        return CarouselSectionController()
+    }
+    
+    func emptyView(for listAdapter: ListAdapter) -> UIView? {
+        return nil
     }
 }
 
